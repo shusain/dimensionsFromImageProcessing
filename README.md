@@ -13,6 +13,16 @@ Hit R to reset the view.
 `sudo apt install openjdk-11-jdk`
 or otherwise install java 11 on the machine (openjdk-11-jre is probably sufficient if not doing java work)
 
+then run
+
+`./application.linux/dimensionsFromImage`
+
+
+## To run on windows
+`./application.windows/dimensionsFromImage`
+
+if Open JRE 11 isn't installed you should be promted to install it
+
 ## Prerequistes
 To develop/build/run will need processing IDE
 
