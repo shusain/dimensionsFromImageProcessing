@@ -1,6 +1,8 @@
 # dimensionsFromImageProcessing
 Opens an input.jpg image and lets you draw lines to find dimensions
 
+![example](screenshot.png)
+
 If no image is loaded put a input.jpg JPEG image into the folder with this program and open again.
 Use space bar to pan, use mouse wheel to zoom.
 Drag the mouse to draw a line the first line will be used as the ruler and is one 'unit'.
