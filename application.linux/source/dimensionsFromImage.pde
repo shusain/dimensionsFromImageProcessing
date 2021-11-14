@@ -65,7 +65,12 @@ void draw() {
     line(line.start.x,line.start.y, line.end.x,line.end.y);
     
     textSize(16/zoomFactor);
+    //blendMode(DIFFERENCE);
+    fill(color(255,255,255));
+    rect(line.end.x, line.end.y-20, 100, 20);
+    fill(color(0,0,0));
     text(String.valueOf(((int)(line.getLineLength()/scaleFactor*oneUnitIs*100))/100.0), line.end.x, line.end.y);
+    //blendMode(BLEND);
   }
   popMatrix();
   if(isPanning) {    
